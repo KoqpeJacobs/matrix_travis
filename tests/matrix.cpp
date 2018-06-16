@@ -7,9 +7,9 @@ SCENARIO("matrix new w/o params","[new w/o params]"){
 }
 
 SCENARIO("matrix new with params","[new with params]"){
-    Matrix matrix(3,3);
-    REQUIRE(matrix.Rows() == 3);
-    REQUIRE(matrix.Columns() == 3);
+    Matrix matrix(4,4);
+    REQUIRE(matrix.Rows() == 4);
+    REQUIRE(matrix.Columns() == 4);
 }
 
 SCENARIO("matrix operator+","[oper+]"){
